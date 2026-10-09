@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Brasil tropical — hibiscos</title>
+  <desc id="desc">Banner vetorial otimizado com folhas detalhadas posicionadas estrategicamente, animações subtis e cantos estruturalmente corrigidos.</desc>
+  <style>
+    @keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-4px); } }
+    @keyframes pulse { 0%, 100% { opacity: 0.18; } 50% { opacity: 0.3; } }
+    .flower-anim { animation: float 6s ease-in-out infinite; }
+    .sun-anim { animation: pulse 8s ease-in-out infinite; }
+  </style>
+  <defs>
+    <clipPath id="banner-clip">
+      <rect width="1200" height="360" rx="24"/>
+    </clipPath>
+    
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#073B3A"/><stop offset=".55" stop-color="#087E72"/><stop offset="1" stop-color="#B6D9A8"/>
+    </linearGradient>
+    <linearGradient id="petal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFB0B8"/><stop offset=".58" stop-color="#F45B83"/><stop offset="1" stop-color="#C81D58"/>
+    </linearGradient>
+    
+    <g id="leaf">
+      <!-- Metade esquerda (sombra) com curvatura em S -->
+      <path d="M0 0 C-45 -20 -55 -80 -15 -115 C10 -70 15 -35 0 0 Z" fill="#157545"/>
+      <!-- Metade direita (luz) que cria o efeito de vinco volumétrico -->
+      <path d="M0 0 Q-10 -50 -15 -115 C10 -70 15 -35 0 0 Z" fill="#1E8A56"/>
+      <!-- Veio central acompanhando a dobra da folha -->
+      <path d="M0 0 Q-10 -50 -15 -115" fill="none" stroke="#B7D66A" stroke-width="2" stroke-linecap="round"/>
+      <!-- Veios laterais curvados organicamente a partir do centro -->
+      <path d="M-3 -30 Q-15 -32 -25 -22 M-7 -60 Q-25 -65 -35 -50 M-11 -90 Q-25 -90 -28 -75
+               M-3 -30 Q5 -30 8 -15 M-7 -60 Q8 -60 10 -40 M-11 -90 Q0 -85 0 -68" 
+            fill="none" stroke="#B7D66A" stroke-width="1.2" opacity="0.75" stroke-linecap="round"/>
+    </g>
+    
+    <g id="flower">
+      <g fill="url(#petal)" stroke="#C92B60" stroke-width="1.6">
+        <ellipse rx="23" ry="58" cy="-35" transform="rotate(0)"/>
+        <ellipse rx="23" ry="58" cy="-35" transform="rotate(72)"/>
+        <ellipse rx="23" ry="58" cy="-35" transform="rotate(144)"/>
+        <ellipse rx="23" ry="58" cy="-35" transform="rotate(216)"/>
+        <ellipse rx="23" ry="58" cy="-35" transform="rotate(288)"/>
+      </g>
+      <circle r="18" fill="#A90F4B"/>
+      <path d="M0 0 Q16 -22 31 -52" fill="none" stroke="#FFD45C" stroke-width="5" stroke-linecap="round"/>
+      <g fill="#FFD45C"><circle cx="31" cy="-52" r="5"/><circle cx="23" cy="-43" r="3"/><circle cx="36" cy="-42" r="3"/></g>
+    </g>
+  </defs>
+  
+  <g clip-path="url(#banner-clip)">
+    <rect width="1200" height="360" rx="24" fill="url(#sky)"/>
+    <circle cx="980" cy="66" r="82" fill="#F7D66A" opacity="0.18" class="sun-anim"/>
+    
+    <path d="M0 252 Q180 190 350 252 T700 235 T1200 225 V360 H0Z" fill="#075B50" opacity=".7"/>
+    <path d="M0 292 Q220 230 440 292 T880 275 T1200 285 V360 H0Z" fill="#043F3D" opacity=".7"/>
+    
+    <!-- FOLHAS: Posicionamento Estratégico (Renderizadas antes das flores para servirem de fundo) -->
+    <!-- Ancoragem das flores principais -->
+    <g transform="translate(170 190) rotate(-65) scale(0.9)"><use href="#leaf"/></g>
+    <g transform="translate(1030 160) rotate(55) scale(0.95)"><use href="#leaf"/></g>
+    
+    <!-- Moldura dos cantos inferiores -->
+    <g transform="translate(50 340) rotate(-15) scale(1.3)"><use href="#leaf"/></g>
+    <g transform="translate(1150 330) rotate(35) scale(1.1)"><use href="#leaf"/></g>
+    
+    <!-- Fluxo das ondas de fundo -->
+    <g transform="translate(360 305) rotate(25) scale(0.65)"><use href="#leaf"/></g>
+    <g transform="translate(850 310) rotate(-30) scale(0.7)"><use href="#leaf"/></g>
+    
+    <!-- FLORES: Flutuação independente -->
+    <g class="flower-anim" style="animation-delay: 0s;"><g transform="translate(188 192) rotate(-16) scale(.76)"><use href="#flower"/></g></g>
+    <g class="flower-anim" style="animation-delay: 1s;"><g transform="translate(1002 176) rotate(18) scale(.82)"><use href="#flower"/></g></g>
+    <g class="flower-anim" style="animation-delay: 2s;"><g transform="translate(1075 260) rotate(22) scale(.48)"><use href="#flower"/></g></g>
+    <g class="flower-anim" style="animation-delay: 0.5s;"><g transform="translate(120 270) rotate(-15) scale(.45)"><use href="#flower"/></g></g>
+    
+    <!-- TEXTO -->
+    <g text-anchor="middle" font-family="Verdana, Arial, sans-serif">
+      <text x="600" y="143" fill="#FFF9E7" font-size="18" letter-spacing="7">HARDWARE • SEGURANÇA • SOFTWARE</text>
+      <text x="600" y="204" fill="#FFFFFF" font-size="49" font-weight="700">Olá, eu sou Mayumi!</text>
+      <text x="600" y="244" fill="#D8F3D4" font-size="19">Estudante de Ciências da Computação</text>
+    </g>
+    <path d="M520 267 Q600 283 680 267" fill="none" stroke="#F7D66A" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

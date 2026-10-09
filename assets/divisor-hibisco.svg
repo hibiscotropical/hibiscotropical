@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="77" viewBox="0 0 1200 52" role="img" aria-label="Divisor tropical com folhas e hibisco">
+  <style>
+    @keyframes breath { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.08); } }
+    .center-flower { animation: breath 4s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+  </style>
+  <g fill="none" stroke="#18845B" stroke-width="2">
+    <path d="M0 26 H470 M730 26 H1200"/>
+    <path d="M36 26 Q18 4 4 10 Q10 30 36 26Z" fill="#B8D66A"/>
+    <path d="M60 26 Q80 2 98 10 Q88 31 60 26Z" fill="#18845B"/>
+    <path d="M1164 26 Q1182 4 1196 10 Q1190 30 1164 26Z" fill="#B8D66A"/>
+    <path d="M1140 26 Q1120 2 1102 10 Q1112 31 1140 26Z" fill="#18845B"/>
+  </g>
+  <g class="center-flower">
+    <g transform="translate(600 26)">
+      <g fill="#F45B83" stroke="#C92B60" stroke-width="1">
+        <ellipse rx="9" ry="22" cy="-9"/><ellipse rx="9" ry="22" cy="-9" transform="rotate(72)"/>
+        <ellipse rx="9" ry="22" cy="-9" transform="rotate(144)"/><ellipse rx="9" ry="22" cy="-9" transform="rotate(216)"/>
+        <ellipse rx="9" ry="22" cy="-9" transform="rotate(288)"/>
+      </g>
+      <circle r="7" fill="#FFD45C"/>
+    </g>
+  </g>
+</svg>
