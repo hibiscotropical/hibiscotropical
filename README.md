@@ -22,9 +22,9 @@
 
 Sou estudante de Ciência da Computação e gosto de desmontar, dissecar dispositivos eletrônicos e sistemas para entendê-los.
 
-- 🌱 Atualmente estudando: **[tecnologia ou assunto]**
-- 🔭 Trabalhando em: **Blue Day (90%)**
-- 🧭 Interesses: **Segurança cibernética e eletrônica**
+- 🌱 Atualmente estudando: **MySQL e outros assuntos...**
+- 🔭 Trabalhando em: **Blue Day App (90%)**
+- 🧭 Interesses: **Segurança cibernética, eletrônica...**
 - 📍 Brasil
 
 ## 🧰 Tecnologias
