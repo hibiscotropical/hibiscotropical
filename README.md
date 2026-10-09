@@ -54,8 +54,8 @@ Sou estudante de Ciência da Computação e gosto de desmontar, dissecar disposi
 ## 📈 GitHub
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=SEU-USUARIO&show_icons=true&hide_border=true&theme=transparent&title_color=087E72&icon_color=F45B83&text_color=4B625B" alt="Estatísticas do GitHub"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU-USUARIO&layout=compact&hide_border=true&theme=transparent&title_color=087E72&text_color=4B625B" alt="Linguagens mais utilizadas"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=hibiscotropical&theme=buefy&show_icons=true" alt="Estatísticas do GitHub"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hibiscotropical&layout=compact"/>
 </div>
 
 <img src="assets/divisor-hibisco.svg" alt="" width="100%"/>
