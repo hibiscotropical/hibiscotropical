@@ -30,9 +30,11 @@ Sou estudante de Ciência da Computação e gosto de desmontar, dissecar disposi
 ## 🧰 Tecnologias
 
 <div align="center">
-  <br><img src="https://skillicons.dev/icons?i=html,css,js,nodejs,git,github,vscode&theme=dark" alt="Tecnologias e ferramentas" />
+  <br><br>
+<img src="https://skillicons.dev/icons?i=html,css,js,nodejs,git,github,vscode&theme=dark" alt="Tecnologias e ferramentas" />
+<br><br>
+<img src="https://img.shields.io/badge/Cordova-E8E8E8?style=for-the-badge&logo=apachecordova&logoColor=black" alt="Apache Cordova" />
   <br>
-<img src="https://i.icoziv.workers.dev/icons?i=html,css,js,nodejs,git,github,vscode,cordova&theme=dark" alt="Tecnologias e ferramentas" />
 <img src="assets/divisor-hibisco.svg" alt="" width="100%"/>
 
 ## 🚀 Projetos em destaque
