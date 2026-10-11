@@ -30,7 +30,7 @@ Sou estudante de Ciência da Computação e gosto de desmontar, dissecar disposi
 ## 🧰 Tecnologias
 
 <div align="center">
-  <br><img src="https://skillicons.dev/icons?i=html,css,js,nodejs,git,github,vscode&theme=dark,cordova" alt="Tecnologias e ferramentas" />
+  <br><img src="https://skillicons.dev/icons?i=html,css,js,nodejs,git,github,vscode&theme=dark alt="Tecnologias e ferramentas" />
 </div><br>
 <img src="assets/divisor-hibisco.svg" alt="" width="100%"/>
 
