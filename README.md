@@ -31,6 +31,7 @@ Sou estudante de Ciência da Computação e gosto de desmontar, dissecar disposi
 
 <div align="center">
   <br><img src="https://skillicons.dev/icons?i=html,css,js,nodejs,git,github,vscode&theme=dark" alt="Tecnologias e ferramentas" />
+  <img src="https://simpleicons.org" width="50" height="50" alt="Apache Cordova" />
 </div><br>
 <img src="assets/divisor-hibisco.svg" alt="" width="100%"/>
 
