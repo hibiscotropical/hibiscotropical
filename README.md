@@ -45,7 +45,7 @@ Sou estudante de Ciência da Computação e gosto de desmontar, dissecar disposi
     <td width="50%" valign="top">
       <h3>📅 Blue Day</h3>
       <p>Aplicativo em que você pode organizar suas tarefas e analisar quantos dias consecutivos você as realizou.</p>
-      <a href="https://github.com/hibiscotropical/BlueDay">Acessar site para download →</a><br>
+      <a href="https://github.com/hibiscotropical/BlueDay/releases/tag/v1.0.8-BETA">Download do App →</a><br>
     </td>
     <td width="50%" valign="top">
       <h3>🌺 Em breve</h3>
